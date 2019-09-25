@@ -12,7 +12,11 @@ Simple scripts to build pdf reports from markdown using [pandoc](https://pandoc.
 ./create_pdf.sh template.md 
 ```
 
-Creates template.pdf output from template.md. 
+Creates template.pdf output from template.md.  
+
+Edit [biblio.bib](biblio.bib) to add bibliography data in `bibtext` format. 
+
+Edit [create_pdf.sh](create_pdf.sh) to modify pandoc command. 
 
 Watch template.md for changes and run create_pdf.sh automatically with:
 
