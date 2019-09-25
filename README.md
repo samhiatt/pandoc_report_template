@@ -23,3 +23,7 @@ Watch template.md for changes and run create_pdf.sh automatically with:
 ```sh
 ./watch_create.sh template.md 
 ```
+
+## Credits
+
+This work was inspired by Albert Krewinkel and Robert Winkler's [pandoc-scholar](https://github.com/pandoc-scholar/pandoc-scholar).
